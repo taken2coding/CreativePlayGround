@@ -3,6 +3,18 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.utils.translation import gettext_lazy as _
 from .models import CustomUser
 import re
+from django.contrib.auth.forms import PasswordResetForm
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+
+
+class CustomPasswordResetForm(PasswordResetForm):
+    email = forms.EmailField(max_length=254, widget=forms.TextInput(attrs={'placeholder': 'Email'}))
+
+    def get_users(self, email):
+        active_users = User.objects.filter(email__iexact=email, is_active=True)
+        return (u for u in active_users if u.has_usable_password())
 
 
 class CustomUserCreationForm(UserCreationForm):
@@ -47,3 +59,4 @@ class CustomUserProfileForm(forms.ModelForm):
         if phone_number and not re.match(r'^\+\d{1,14}$', phone_number):
             raise forms.ValidationError(_('Phone number must start with "+" followed by digits.'))
         return phone_number
+

@@ -6,11 +6,17 @@ INSTALLED_APPS += ['debug_toolbar',]
 MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware',]
 # For debug_toolbar
 INTERNAL_IPS = ['127.0.0.1']
-
+SITE_URL = 'http://localhost:8000'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
     }
 }
 '''
@@ -25,19 +31,23 @@ LOGGING = {
     'disable_existing_loggers': False,
     'handlers': {
         'console': {
-            'level': 'DEBUG',
+            'level': 'INFO',
             'class': 'logging.StreamHandler',
+        },
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/django.log',
         },
     },
     'loggers': {
-        'django.urls': {
-            'handlers': ['console'],
-            'level': 'DEBUG',
+        '': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
             'propagate': True,
         },
     },
 }
-
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = BASE_DIR / 'emails'  # Directory where emails will be saved

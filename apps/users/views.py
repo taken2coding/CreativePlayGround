@@ -1,20 +1,55 @@
+from django.contrib.auth.views import (PasswordResetView,
+                                       PasswordResetDoneView, PasswordResetConfirmView, PasswordResetCompleteView)
+from .forms import CustomPasswordResetForm
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
-from django.urls import reverse_lazy
 from django.views.generic import View, FormView, UpdateView
 from django.utils.translation import gettext_lazy as _
 from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import messages
-from .models import CustomUser
 from .forms import CustomUserCreationForm, CustomUserLoginForm, CustomUserProfileForm
 import uuid
+from django.urls import reverse_lazy
+from .models import CustomUser
+from django.contrib.auth.views import PasswordResetView
+import logging
+from django_ratelimit.decorators import ratelimit
+from django.utils.decorators import method_decorator
+
+
+logger = logging.getLogger(__name__)
+
+
+class CustomPasswordResetView(PasswordResetView):
+    form_class = CustomPasswordResetForm
+    template_name = 'users/password_reset.html'
+    email_template_name = 'users/password_reset_email.html'
+    success_url = '/password-reset/done/'
+
+    @method_decorator(ratelimit(key='user_or_ip', rate='5/m', method=ratelimit.ALL, block=True), name='dispatch')
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
+
+
+class CustomPasswordResetDoneView(PasswordResetDoneView):
+    template_name = 'users/password_reset_done.html'
+
+
+class CustomPasswordResetConfirmView(PasswordResetConfirmView):
+    template_name = 'users/password_reset_confirm.html'
+    success_url = '/password-reset/complete/'
+
+
+class CustomPasswordResetCompleteView(PasswordResetCompleteView):
+    template_name = 'users/password_reset_complete.html'
+
 
 
 def home(request):
-    return render(request,"users/home.html")
+    return render(request, "users/home.html")
 
 
 class SignUpView(FormView):
@@ -64,6 +99,7 @@ class LogoutView(View):
     def get(self, request):
         logout(request)
         return redirect('users:login')
+
 
 class ProfileView(LoginRequiredMixin, UpdateView):
     model = CustomUser
