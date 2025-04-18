@@ -13,6 +13,10 @@ from .forms import CustomUserCreationForm, CustomUserLoginForm, CustomUserProfil
 import uuid
 
 
+def home(request):
+    return render(request,"users/home.html")
+
+
 class SignUpView(FormView):
     template_name = 'users/signup.html'
     form_class = CustomUserCreationForm

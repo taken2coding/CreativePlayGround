@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    'crispy_bootstrap4',
     'apps.users.apps.UsersConfig',
 ]
 
@@ -86,5 +87,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
-DEFAULT_FROM_EMAIL = 'no-reply@gmail.com'
+DEFAULT_FROM_EMAIL = 'no-reply@yourdomain.com'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
