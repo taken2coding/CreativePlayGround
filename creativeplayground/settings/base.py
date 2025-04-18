@@ -36,6 +36,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'creativeplayground.urls'
 
+PASSWORD_RESET_TIMEOUT = 86400  # the number of seconds in one day. It can be set to 2-* days
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

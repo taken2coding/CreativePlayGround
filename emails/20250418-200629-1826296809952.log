@@ -1,0 +1,11 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Verify Your Email
+From: no-reply@yourdomain.com
+To: sss@fff.com
+Date: Fri, 18 Apr 2025 19:06:29 -0000
+Message-ID: <174500318938.15112.15032225062645141521@SIRP>
+
+Click to verify your account: http://127.0.0.1:8000/accounts/verify/2fb2c7e0-ad59-4cb3-bc72-60ae783e3b09/
+-------------------------------------------------------------------------------
