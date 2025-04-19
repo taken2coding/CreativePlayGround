@@ -1,11 +1,28 @@
 {% extends 'base.html' %}
-{% load crispy_forms_tags %}
 {% block title %}Profile{% endblock %}
 {% block content %}
-    <h2>Your Profile</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form|crispy }}
-        <button type="submit" class="btn btn-primary">Update Profile</button>
-    </form>
+    <h2>Welcome, {{ user.username }}</h2>
+    <p><strong>Name:</strong> {{ user.first_name }} {{ user.last_name }}</p>
+    <h3>Connected Social Accounts</h3>
+    {% if social_accounts %}
+        <ul>
+        {% for account in social_accounts %}
+            <li>{{ account.provider|title }}: {{ account.extra_data.email|default:account.extra_data.login }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No social accounts connected.</p>
+    {% endif %}
+    <h3>Recent Activities</h3>
+    {% if activities %}
+        <ul>
+        {% for activity in activities %}
+            <li>{{ activity.method }} {{ activity.path }} at {{ activity.timestamp }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No recent activities.</p>
+    {% endif %}
+    <p><a href="{% url 'users:home' %}" class="btn btn-secondary">Home</a></p>
+    <p><a href="{% url 'users:password_reset' %}" class="btn btn-secondary">Reset Password</a></p>
 {% endblock %}

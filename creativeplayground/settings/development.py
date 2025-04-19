@@ -7,6 +7,12 @@ MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware',]
 # For debug_toolbar
 INTERNAL_IPS = ['127.0.0.1']
 SITE_URL = 'http://localhost:8000'
+
+SECURE_SSL_REDIRECT = False  # Disable HTTPS in development
+SESSION_COOKIE_SECURE = False  # Allow non-HTTPS in development
+CSRF_COOKIE_SECURE = False
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',

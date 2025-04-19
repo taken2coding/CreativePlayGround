@@ -5,7 +5,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render, redirect
-from django.views.generic import View, FormView, UpdateView
+from django.views.generic import View, FormView, UpdateView, TemplateView
 from django.utils.translation import gettext_lazy as _
 from django.core.mail import send_mail
 from django.conf import settings
@@ -102,10 +102,10 @@ class LogoutView(View):
         return redirect('users:home')
 
 
-class ProfileView(LoginRequiredMixin, UpdateView):
+class ProfileUpdateView(LoginRequiredMixin, UpdateView):
     model = CustomUser
     form_class = CustomUserProfileForm
-    template_name = 'users/profile.html'
+    template_name = 'users/profile_update.html'
     success_url = reverse_lazy('users:profile')
 
     def get_object(self):
@@ -114,6 +114,18 @@ class ProfileView(LoginRequiredMixin, UpdateView):
     def form_valid(self, form):
         messages.success(self.request, _('Profile updated successfully.'))
         return super().form_valid(form)
+
+
+class ProfileView(LoginRequiredMixin, TemplateView):
+    template_name = 'users/profile.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        user = self.request.user
+        activities = self.request.session.get('user_activities', [])
+        context['activities'] = activities
+        logger.info(f"Profile accessed by user: {user.email}")
+        return context
 
 
 class VerifyEmailView(View):

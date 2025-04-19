@@ -62,3 +62,147 @@ C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\models.py changed, r
 Watching for file changes with StatReloader
 C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\models.py changed, reloading.
 Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /admin via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited /admin/users/customuser/ via GET
+User peter@peter.com visited /admin/jsi18n/ via GET
+User peter@peter.com visited /login/ via GET
+User peter@peter.com visited /login/ via POST
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /admin via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited /admin/password_change/ via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited / via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited / via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /login/ via GET
+User peter@peter.com visited /login/ via GET
+User peter@peter.com visited /admin/users/customuser/ via GET
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/password-reset/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/login/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/login/ via POST
+Forbidden (CSRF token from POST incorrect.): /accounts/login/
+User peter@peter.com visited /accounts/login/ via POST
+Forbidden (CSRF token from POST incorrect.): /accounts/login/
+User peter@peter.com visited /accounts/login/ via GET
+User peter@peter.com visited /accounts/login/ via POST
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /admin via GET
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited / via GET
+User peter@peter.com visited /profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /admin/ via GET
+User peter@peter.com visited /admin/users/customuser/ via GET
+User peter@peter.com visited /admin/jsi18n/ via GET
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /home via GET
+Not Found: /home
+User peter@peter.com visited / via GET
+User peter@peter.com visited /profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /profile/ via GET
+Profile accessed by user: peter@peter.com
