@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap4',
     'apps.users.apps.UsersConfig',
 ]
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
