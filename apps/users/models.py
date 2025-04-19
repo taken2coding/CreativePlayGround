@@ -38,6 +38,7 @@ class CustomUser(AbstractUser):
     def __str__(self):
         return self.email
 
+
     def clean(self):
         super().clean()
         if self.phone_number and not self.phone_number.startswith('+'):

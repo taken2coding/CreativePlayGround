@@ -95,10 +95,11 @@ class LoginView(FormView):
             form.add_error(None, _('Please verify your email before logging in.'))
             return self.form_invalid(form)
 
+
 class LogoutView(View):
     def get(self, request):
         logout(request)
-        return redirect('users:login')
+        return redirect('users:home')
 
 
 class ProfileView(LoginRequiredMixin, UpdateView):
