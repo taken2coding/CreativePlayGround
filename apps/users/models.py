@@ -6,32 +6,26 @@ from .managers import CustomUserManager
 
 
 class CustomUser(AbstractUser):
-    objects = CustomUserManager()
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     username = models.CharField(
-        _('username'),
         max_length=150,
         unique=True,
         blank=True,
         null=True,
-        help_text=_('Optional. 150 characters or fewer. Letters, digits, and @/./+/-/_ only.'),
     )
-    email = models.EmailField(_('email address'), unique=True, blank=False)
-    phone_number = models.CharField(
-        _('phone number'),
-        max_length=15,
-        blank=True,
-        help_text=_('Optional. Format: +1234567890')
-    )
-    date_of_birth = models.DateField(_('date of birth'), null=True, blank=True)
-    is_verified = models.BooleanField(
-        _('verified'),
-        default=False,
-        help_text=_('Indicates whether the user has verified their email.')
-    )
-    created_at = models.DateTimeField(_('created at'), auto_now_add=True)
-    updated_at = models.DateTimeField(_('updated at'), auto_now=True)
+    email = models.EmailField(unique=True)
+    phone_number = models.CharField(max_length=15, blank=True)
+    date_of_birth = models.DateField(null=True, blank=True)
+    is_verified = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     email_verification_token = models.CharField(max_length=36, blank=True, null=True)
+    profile_image = models.ImageField(upload_to='profile_images/%Y/%m/%d/', blank=True, null=True)
+    bio = models.TextField(max_length=500, blank=True)
+    receive_newsletter = models.BooleanField(default=False)
+    theme = models.CharField(max_length=20, choices=[('light', 'Light'), ('dark', 'Dark')], default='light')
+
+    objects = CustomUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
