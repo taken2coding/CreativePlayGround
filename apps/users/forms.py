@@ -9,6 +9,11 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
+class EmailForm(forms.Form):
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'placeholder': 'Enter your email'}))
+
+
+
 class CustomPasswordResetForm(PasswordResetForm):
     email = forms.EmailField(max_length=254, widget=forms.TextInput(attrs={'placeholder': 'Email'}))
 

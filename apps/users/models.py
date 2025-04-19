@@ -2,9 +2,11 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 import uuid
+from .managers import CustomUserManager
 
 
 class CustomUser(AbstractUser):
+    objects = CustomUserManager()
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     username = models.CharField(
         _('username'),
@@ -47,3 +49,4 @@ class CustomUser(AbstractUser):
         if self.phone_number and not self.phone_number.startswith('+'):
             from django.core.exceptions import ValidationError
             raise ValidationError(_('Phone number must start with a "+" followed by country code.'))
+

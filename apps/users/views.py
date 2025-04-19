@@ -18,7 +18,7 @@ from django.contrib.auth.views import PasswordResetView
 import logging
 from django_ratelimit.decorators import ratelimit
 from django.utils.decorators import method_decorator
-
+from .forms import EmailForm
 
 logger = logging.getLogger(__name__)
 
@@ -130,3 +130,15 @@ class VerifyEmailView(View):
         except CustomUser.DoesNotExist:
             messages.error(request, _('Invalid verification token.'))
         return redirect('users:login')
+
+
+def resend_verification_view(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        if CustomUser.objects.resend_verification(email):
+            messages.success(request, _('Verification email resent.'))
+        else:
+            logger.warning(f"incorrect email from {request.user}")
+            messages.error(request, _('Email not found or already verified.'))
+    form = EmailForm()
+    return render(request, 'users/resend_verification.html', {'form': form})
