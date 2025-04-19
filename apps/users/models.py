@@ -45,3 +45,17 @@ class CustomUser(AbstractUser):
             from django.core.exceptions import ValidationError
             raise ValidationError(_('Phone number must start with a "+" followed by country code.'))
 
+
+class UserActivity(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='activities')
+    path = models.CharField(max_length=255, verbose_name=_('Path'))
+    method = models.CharField(max_length=10, verbose_name=_('Method'))
+    timestamp = models.DateTimeField(auto_now_add=True, verbose_name=_('Timestamp'))
+
+    class Meta:
+        verbose_name = _('User Activity')
+        verbose_name_plural = _('User Activities')
+        ordering = ['-timestamp']
+
+    def __str__(self):
+        return f"{self.user.email} - {self.method} {self.path} at {self.timestamp}"

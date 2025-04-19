@@ -122,11 +122,17 @@ class ProfileView(LoginRequiredMixin, TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         user = self.request.user
-        activities = self.request.session.get('user_activities', [])
-        context['activities'] = activities
+        # Fetch last 10 activities from database
+        activities = user.activities.all()[:10]
+        context['activities'] = [
+            {
+                'path': activity.path,
+                'method': activity.method,
+                'timestamp': activity.timestamp.isoformat()
+            } for activity in activities
+        ]
         logger.info(f"Profile accessed by user: {user.email}")
         return context
-
 
 class VerifyEmailView(View):
     def get(self, request, token):

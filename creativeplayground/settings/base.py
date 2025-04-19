@@ -111,7 +111,9 @@ EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = 'no-reply@yourdomain.com'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
+LOGIN_REDIRECT_URL = 'users:profile'
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'
+SITE_ID = 1
 '''
 # Cache for rate-limiting
 CACHES = {

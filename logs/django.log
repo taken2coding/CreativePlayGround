@@ -341,3 +341,58 @@ User peter@peter.com visited /profile/ via GET
 Profile accessed by user: peter@peter.com
 User peter@peter.com visited /profile/ via GET
 Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/password-reset/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/login/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/login/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/password-reset/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET
+User peter@peter.com visited /accounts/profile/ via GET
+Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:13:14.281883+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-19 13:13:17.861333+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-19 13:13:19.448334+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:13:21.680324+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-19 13:13:27.773791+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:13:29.397184+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-19 13:13:37.881779+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:13:51.015619+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:15:34.398805+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:15:38.029493+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:15:49.373673+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-19 13:16:02.972227+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:16:04.842651+00:00
+Profile accessed by user: peter@peter.com
