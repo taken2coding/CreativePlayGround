@@ -46,12 +46,43 @@ class CustomUserCreationForm(UserCreationForm):
         return email
 
 
-class CustomUserLoginForm(AuthenticationForm):
-    username = forms.EmailField(label=_('Email'), max_length=254)
+class CustomLoginForm(forms.Form):
+    email = forms.EmailField(label=_('Email'), max_length=254)
+    password = forms.CharField(label=_('Password'), widget=forms.PasswordInput)
+    remember_me = forms.BooleanField(label=_('Remember Me'), required=False)
+    theme = forms.ChoiceField(
+        label=_('Theme'),
+        choices=[('light', _('Light')), ('dark', _('Dark'))],
+        required=False
+    )
 
-    class Meta:
-        model = CustomUser
-        fields = ('username', 'password')
+    def __init__(self, *args, is_remembered=False, remembered_email=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.is_remembered = is_remembered
+        if is_remembered:
+            # Pre-check remember_me
+            self.fields['remember_me'].initial = True
+            # Mask email (e.g., ****@example.com)
+            if remembered_email:
+                domain = remembered_email.split('@')[-1]
+                self.fields['email'].initial = f"****@{domain}"
+                self.fields['email'].widget.attrs['readonly'] = True  # Optional: make readonly
+            # Set masked password placeholder
+            self.fields['password'].initial = '********'
+            self.fields['password'].widget.attrs['placeholder'] = '••••••••'
+
+    def clean(self):
+        cleaned_data = super().clean()
+        email = cleaned_data.get('email')
+        password = cleaned_data.get('password')
+        if self.is_remembered and email and email.startswith('****@'):
+            # Skip validation for masked email; rely on token
+            return cleaned_data
+        if email and password:
+            # Normal validation for non-remembered users
+            pass
+        return cleaned_data
+
 
 
 class CustomUserProfileForm(forms.ModelForm):

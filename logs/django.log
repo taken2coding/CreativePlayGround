@@ -396,3 +396,2211 @@ Profile accessed by user: peter@peter.com
 User peter@peter.com visited /accounts/ via GET at 2025-04-19 13:16:02.972227+00:00
 User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:16:04.842651+00:00
 Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:19:41.150018+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-19 13:19:48.912079+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-19 13:19:52.042653+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:19:53.464282+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-19 13:20:23.461026+00:00
+Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:12.362391+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 14:23:30.932357+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:33.150189+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:40.086401+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:41.075137+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:45.258879+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 14:23:46.310151+00:00
+Profile accessed by user: peter@peter.com
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 16, in cached_import
+    return getattr(module, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'apps.users.backends' has no attribute 'CookieAuthBackend'. Did you mean: 'CustomAuthBackend'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 150, in post
+    if form.is_valid():
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 338, in full_clean
+    self._clean_form()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\forms\forms.py", line 354, in _clean_form
+    cleaned_data = self.clean()
+                   ^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\forms.py", line 366, in clean
+    self.user_cache = authenticate(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 112, in authenticate
+    for backend, backend_path in _get_compatible_backends(request, **credentials):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 44, in _get_compatible_backends
+    for backend, backend_path in _get_backends(return_tuples=True):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 29, in _get_backends
+    backend = load_backend(backend_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 23, in load_backend
+    return import_string(path)()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\module_loading.py", line 32, in import_string
+    raise ImportError(
+ImportError: Module "apps.users.backends" does not define a "CookieAuthBackend" attribute/class
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:12:44.107703+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:12:50.874019+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:14:03.579381+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts via GET at 2025-04-20 16:14:19.161742+00:00
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:14:19.238092+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 16:14:20.491671+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:14:22.297612+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 16:14:23.183926+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:14:35.500075+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:14:40.548854+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:14:41.963013+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:14:44.027087+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:17:15.105753+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:17:16.164598+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:17:18.814133+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:17:21.873029+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:17:24.508649+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:17:26.283366+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:29:46.513466+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:29:55.849098+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 16:29:56.920602+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:29:59.768607+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:30:01.291696+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:31:05.228776+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:31:11.052165+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:33:52.615705+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:38:15.677105+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:38:18.028546+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:38:24.465795+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:41:20.029030+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:41:21.737148+00:00
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:41:23.999657+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:41:51.789249+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:41:53.953487+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:42:15.973738+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:42:22.619663+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:42:42.957196+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:43:07.356701+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 16:43:13.742265+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 16:43:14.941658+00:00
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:43:17.181800+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+User peter@peter.com visited /accounts/signup/ via GET at 2025-04-20 16:43:29.565205+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 16:43:32.339664+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:43:34.594764+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6359. No connection could be made because the target machine actively refused it.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 16:43:57.330343+00:00
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 89, in add
+    return self.client.add(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 238, in add
+    return self.set(key, value, timeout, version=version, client=client, nx=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 185, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\decorators.py", line 19, in _wrapped
+    ratelimited = is_ratelimited(request=request, group=group, fn=fn,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 153, in is_ratelimited
+    usage = get_usage(request, group, fn, key, rate, method, increment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_ratelimit\core.py", line 231, in get_usage
+    added = cache.add(cache_key, initial_value, period + EXPIRATION_FUDGE)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 42, in wrapper
+    return panel._record_call(cache, name, original_method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\debug_toolbar\panels\cache.py", line 151, in _record_call
+    value = original_method(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django_redis\client\default.py", line 175, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\commands\core.py", line 2335, in set
+    return self.execute_command("SET", *pieces, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 559, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\client.py", line 565, in _execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 1422, in get_connection
+    connection.connect()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\redis\connection.py", line 363, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. No connection could be made because the target machine actively refused it.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 17:22:30.464344+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 17:22:32.844224+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 17:22:35.139082+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 17:22:37.119534+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-20 17:23:56.983978+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-20 17:23:57.160379+00:00
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\creativeplayground\settings\base.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+User peter@peter.com logged in
+Set remember me token for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:32:50.026056+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-20 18:33:28.205048+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:33:31.624490+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:34:11.227869+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 18:34:13.540899+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:34:14.845987+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:34:17.447780+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 18:34:19.080136+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+Internal Server Error: /accounts/profile/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\backends.py", line 56, in get_user
+    return User.objects.get(pk=user_id)
+           ^^^^
+NameError: name 'User' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\middleware.py", line 13, in __call__
+    if request.user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\middleware.py", line 39, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\middleware.py", line 19, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\contrib\auth\__init__.py", line 311, in get_user
+    user = backend.get_user(user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\backends.py", line 57, in get_user
+    except User.DoesNotExist:
+           ^^^^
+NameError: name 'User' is not defined
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\backends.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 18:37:10.686284+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:37:11.989834+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:37:15.301251+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 18:37:17.375655+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:37:21.255677+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 18:37:26.750564+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 18:37:40.591797+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 18:38:25.357419+00:00
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 18:38:28.696376+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-20 18:38:31.332679+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-20 18:38:31.544701+00:00
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 18:38:43.717759+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:38:46.773759+00:00
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:57:55.243395+00:00
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py", line 66, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 142, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 72, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 37, in get_form
+    return form_class(**self.get_form_kwargs())
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py", line 48, in get_form_kwargs
+    if check_password(token_value, auth_token.token_hash):
+       ^^^^^^^^^^^^^^
+NameError: name 'check_password' is not defined. Did you mean: 'make_password'?
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 18:57:58.929747+00:00
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py", line 66, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 142, in get
+    return self.render_to_response(self.get_context_data())
+                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 72, in get_context_data
+    kwargs["form"] = self.get_form()
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\views\generic\edit.py", line 37, in get_form
+    return form_class(**self.get_form_kwargs())
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py", line 48, in get_form_kwargs
+    if check_password(token_value, auth_token.token_hash):
+       ^^^^^^^^^^^^^^
+NameError: name 'check_password' is not defined. Did you mean: 'make_password'?
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:01:13.001370+00:00
+Valid remember me token for peter@peter.com
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\test\utils.py", line 114, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PeterUgwuoke\Desktop\CreativePlayground\.venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'socialaccount_signup' not found. 'socialaccount_signup' is not a valid view function or pattern name.
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:02:01.028148+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:02:07.777267+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:02:12.318907+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:02:16.774809+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:02:18.797487+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:02:22.775807+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:02:25.400582+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:02:26.803695+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:02:50.380035+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:02:51.798803+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 19:02:54.772906+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:03:01.550746+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:03:02.529251+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:03:06.284649+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:03:08.843180+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:03:11.511169+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/login/ via POST at 2025-04-20 19:03:27.126436+00:00
+Valid remember me token for peter@peter.com
+Authenticated user peter@peter.com via cookie token
+User ****@peter.com logged in
+Set remember me token for ****@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:03:34.348250+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:03:36.766370+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:03:37.851724+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:03:41.926726+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:03:44.245655+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:03:45.829730+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:04:36.380199+00:00
+Valid remember me token for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:04:47.817001+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:04:49.389668+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:04:52.912506+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 19:04:56.033108+00:00
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:04:58.797905+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:05:01.710275+00:00
+Valid remember me token for peter@peter.com
+C:\Users\PeterUgwuoke\Desktop\CreativePlayground\apps\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:06:06.046888+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:06:09.844204+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:06:10.948226+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:06:13.167828+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:06:15.405568+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:06:16.595282+00:00
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-20 19:06:19.251618+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-20 19:06:21.506649+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-20 19:06:21.604748+00:00
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:06:28.881852+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:06:36.968863+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:06:38.487033+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:06:39.467655+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:06:41.995955+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-20 19:06:45.282984+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-20 19:06:46.653181+00:00
+User peter@peter.com visited /accounts/login/ via POST at 2025-04-20 19:07:02.068425+00:00
+Failed login attempt for sss@fff.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:07:06.433743+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:07:07.331499+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-20 19:07:08.595166+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:07:10.782777+00:00
+Profile accessed by user: peter@peter.com

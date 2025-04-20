@@ -59,3 +59,17 @@ class UserActivity(models.Model):
 
     def __str__(self):
         return f"{self.user.email} - {self.method} {self.path} at {self.timestamp}"
+
+
+class CookieAuthToken(models.Model):
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='auth_tokens')
+    token_hash = models.CharField(max_length=255, unique=True, verbose_name=_('Token Hash'))
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name=_('Created At'))
+    expires_at = models.DateTimeField(verbose_name=_('Expires At'))
+
+    class Meta:
+        verbose_name = _('Cookie Auth Token')
+        verbose_name_plural = _('Cookie Auth Tokens')
+
+    def __str__(self):
+        return f"Token for {self.user.email} (expires {self.expires_at})"

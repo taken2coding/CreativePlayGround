@@ -10,7 +10,7 @@ from django.utils.translation import gettext_lazy as _
 from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import messages
-from .forms import CustomUserCreationForm, CustomUserLoginForm, CustomUserProfileForm
+from .forms import CustomUserCreationForm, CustomLoginForm, CustomUserProfileForm
 import uuid
 from django.urls import reverse_lazy
 from .models import CustomUser
@@ -19,8 +19,80 @@ import logging
 from django_ratelimit.decorators import ratelimit
 from django.utils.decorators import method_decorator
 from .forms import EmailForm
-
+from .models import CookieAuthToken
+from django.utils import timezone
+from datetime import timedelta
+from django.core.signing import TimestampSigner
+from django.contrib.auth.hashers import make_password
 logger = logging.getLogger(__name__)
+
+
+class CustomLoginView(FormView):
+    template_name = 'users/login.html'
+    form_class = CustomLoginForm
+    success_url = reverse_lazy('users:profile')
+
+    @method_decorator(ratelimit(key='user_or_ip', rate='5/m', method=ratelimit.ALL, block=True), name='dispatch')
+    def dispatch(self, request, *args, **kwargs):
+        token = request.COOKIES.get('myapp_auth_token')
+        if token and not request.user.is_authenticated:
+            user = authenticate(request, token=token)
+            if user:
+                login(request, user, backend='apps.users.backends.CookieAuthBackend')
+                logger.info(f"Auto-login via cookie for {user.email}")
+                return redirect(self.success_url)
+        return super().dispatch(request, *args, **kwargs)
+
+    def form_valid(self, form):
+        email = form.cleaned_data['email']
+        password = form.cleaned_data['password']
+        remember_me = form.cleaned_data['remember_me']
+        theme = form.cleaned_data['theme'] or 'light'
+
+        user = authenticate(request=self.request, username=email, password=password)
+        if user is None:
+            logger.warning(f"Failed login attempt for {email}")
+            form.add_error(None, _('Invalid email or password'))
+            return self.form_invalid(form)
+
+        login(self.request, user, backend='django.contrib.auth.backends.ModelBackend')
+        logger.info(f"User {email} logged in")
+
+        response = redirect(self.success_url)
+
+        # Set theme cookie
+        response.set_signed_cookie(
+            'myapp_theme',
+            theme,
+            max_age=settings.THEME_COOKIE_AGE,
+            secure=settings.SECURE_COOKIES,
+            httponly=True,
+            samesite='Lax',
+            salt=settings.SIGNING_SALT
+        )
+
+        # Set remember me token
+        if remember_me:
+            token = str(uuid.uuid4())
+            signer = TimestampSigner(salt=settings.SIGNING_SALT)
+            signed_token = signer.sign(token)
+            token_hash = make_password(token)
+            CookieAuthToken.objects.create(
+                user=user,
+                token_hash=token_hash,
+                expires_at=timezone.now() + timedelta(seconds=settings.REMEMBER_ME_COOKIE_AGE)
+            )
+            response.set_cookie(
+                'myapp_auth_token',
+                signed_token,
+                max_age=settings.REMEMBER_ME_COOKIE_AGE,
+                secure=settings.SECURE_COOKIES,
+                httponly=True,
+                samesite='Lax'
+            )
+            logger.info(f"Set remember me token for {email}")
+
+        return response
 
 
 class CustomPasswordResetView(PasswordResetView):
@@ -45,7 +117,6 @@ class CustomPasswordResetConfirmView(PasswordResetConfirmView):
 
 class CustomPasswordResetCompleteView(PasswordResetCompleteView):
     template_name = 'users/password_reset_complete.html'
-
 
 
 def home(request):
@@ -79,21 +150,6 @@ class SignUpView(FormView):
 
         messages.success(self.request, _('Please check your email to verify your account.'))
         return super().form_valid(form)
-
-
-class LoginView(FormView):
-    template_name = 'users/login.html'
-    form_class = CustomUserLoginForm
-    success_url = reverse_lazy('users:profile')
-
-    def form_valid(self, form):
-        user = form.get_user()
-        if user.is_active:
-            login(self.request, user)
-            return super().form_valid(form)
-        else:
-            form.add_error(None, _('Please verify your email before logging in.'))
-            return self.form_invalid(form)
 
 
 class LogoutView(View):
@@ -133,6 +189,7 @@ class ProfileView(LoginRequiredMixin, TemplateView):
         ]
         logger.info(f"Profile accessed by user: {user.email}")
         return context
+
 
 class VerifyEmailView(View):
     def get(self, request, token):

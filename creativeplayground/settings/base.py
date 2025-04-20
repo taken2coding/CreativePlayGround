@@ -2,7 +2,8 @@ import sys
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-
+from decouple import config
+import redis
 
 load_dotenv()
 
@@ -12,6 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(BASE_DIR / 'apps'))
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'dxmd3kq^ke-c$_ys96ledc1k!jipv5v*8)tnll0&fc7^ipep_o')
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -24,7 +26,6 @@ INSTALLED_APPS = [
     'crispy_bootstrap4',
     'apps.users.apps.UsersConfig',
 ]
-SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -40,8 +41,10 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'creativeplayground.urls'
 
 AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend'
+    'django.contrib.auth.backends.ModelBackend',
+    'apps.users.backends.CookieAuthBackend',
 ]
+
 PASSWORD_RESET_TIMEOUT = 86400  # the number of seconds in one day. It can be set to 2-* days
 
 TEMPLATES = [
@@ -95,26 +98,63 @@ SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = 'Lax'
 
 # Session settings
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_AGE = 1800  # 30 minutes in seconds
 SESSION_COOKIE_SECURE = True  # Only send over HTTPS
 SESSION_COOKIE_HTTPONLY = True  # Prevent JavaScript access
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True  # Expire session on browser close
 SESSION_SAVE_EVERY_REQUEST = True  # Update session on every request
 
+# Cookie settings
+COOKIE_PREFIX = 'myapp'  # Prefix for cookie names
+REMEMBER_ME_COOKIE_AGE = 604800  # 7 days
+THEME_COOKIE_AGE = 31536000  # 1 year
+SECURE_COOKIES = True  # Enforce secure cookies
+SIGNING_SALT = config('SIGNING_SALT', default='default-salt')  # For signing cookies
+
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+# EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER') can be used with os.env in place of decouple
+# EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = 'no-reply@yourdomain.com'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'users:profile'
 ACCOUNT_LOGOUT_REDIRECT_URL = '/'
 SITE_ID = 1
-'''
+
+# Logging
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': BASE_DIR / 'logs/django.log',
+        },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
+
+
 # Cache for rate-limiting
 CACHES = {
     'default': {
@@ -125,4 +165,3 @@ CACHES = {
         }
     }
 }
-'''
