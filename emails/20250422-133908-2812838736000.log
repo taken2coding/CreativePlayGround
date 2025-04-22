@@ -1,0 +1,20 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: no-reply@yourdomain.com
+To: peter@peter.com
+Date: Tue, 22 Apr 2025 12:39:08 -0000
+Message-ID: <174532554893.10200.4452203055992510128@SIRP>
+
+
+To reset your password, click the link below:
+
+http://127.0.0.1:8000/accounts/password-reset-confirm/NTUyZWQ5MDEtZTRiOC00ZGVmLWE5YzAtYWVjNDBhNDkwYTc0/conxx8-61e10e0b9be61f9b166f6e4006d70ec6/
+
+If you did not request a password reset, please ignore this email.
+
+Thank you,
+Your App Team
+
+-------------------------------------------------------------------------------

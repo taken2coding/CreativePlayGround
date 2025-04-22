@@ -2604,3 +2604,109 @@ Authenticated user peter@peter.com via cookie token
 Auto-login via cookie for peter@peter.com
 User peter@peter.com visited /accounts/profile/ via GET at 2025-04-20 19:07:10.782777+00:00
 Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:38:48.918789+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:38:51.473500+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:02.013105+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-22 12:39:04.795086+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-22 12:39:08.769919+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-22 12:39:08.982102+00:00
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 12:39:12.685141+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:15.328377+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 12:39:24.312294+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:28.036944+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-22 12:49:23.353216+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:49:24.981402+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:49:27.423653+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:44.751443+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:46.299849+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 13:10:47.190523+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:49.096028+00:00
+Profile accessed by user: peter@peter.com
+Watching for file changes with StatReloader
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:38:48.918789+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:38:51.473500+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:02.013105+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-22 12:39:04.795086+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-22 12:39:08.769919+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-22 12:39:08.982102+00:00
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 12:39:12.685141+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:15.328377+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 12:39:24.312294+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:39:28.036944+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-22 12:49:23.353216+00:00
+User peter@peter.com visited /accounts/login/ via GET at 2025-04-22 12:49:24.981402+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 12:49:27.423653+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:44.751443+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:46.299849+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 13:10:47.190523+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:10:49.096028+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:27:57.891339+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:28:00.726873+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 13:28:01.671970+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:28:05.280536+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-22 13:28:09.013082+00:00
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-22 13:28:13.474711+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-22 13:28:15.966283+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-22 13:28:16.090310+00:00
+User peter@peter.com visited /login/ via GET at 2025-04-22 13:28:17.571965+00:00
+User peter@peter.com visited /profile/ via GET at 2025-04-22 13:28:19.064613+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /logout/ via GET at 2025-04-22 13:28:20.539474+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 13:41:27.252959+00:00
+Profile accessed by user: peter@peter.com
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 14:14:34.497410+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 14:14:36.029511+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/logout/ via GET at 2025-04-22 14:14:37.348395+00:00
+Authenticated user peter@peter.com via cookie token
+Auto-login via cookie for peter@peter.com
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 14:14:42.181820+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/ via GET at 2025-04-22 14:14:44.464296+00:00
+User peter@peter.com visited /accounts/profile/ via GET at 2025-04-22 14:14:46.331015+00:00
+Profile accessed by user: peter@peter.com
+User peter@peter.com visited /accounts/password-reset/ via GET at 2025-04-22 14:14:48.576839+00:00
+User peter@peter.com visited /accounts/password-reset/ via POST at 2025-04-22 14:14:52.214188+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-22 14:14:52.277425+00:00
+User peter@peter.com visited /login/ via GET at 2025-04-22 14:14:53.412078+00:00
+User peter@peter.com visited /password-reset/ via GET at 2025-04-22 14:14:56.005374+00:00
+User peter@peter.com visited /password-reset/ via POST at 2025-04-22 14:14:58.899718+00:00
+User peter@peter.com visited /password-reset/done/ via GET at 2025-04-22 14:14:58.980411+00:00
+User peter@peter.com visited /profile/ via GET at 2025-04-22 14:15:00.438205+00:00
+Profile accessed by user: peter@peter.com
